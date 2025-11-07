@@ -64,9 +64,6 @@ https://weatherforecastwebsitee.netlify.app/
 - [Axios](https://axios-http.com/) - HTTP client
 - [Date-fns](https://date-fns.org/) - Date utility library
 
-## 📱 Screenshots
-
-![Weather App Screenshot](public/screenshot.png)
 
 ## 📝 License
 
