@@ -87,6 +87,8 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## 📧 Contact
 
-Your Name - Pratiksha.Hemant.Samant - your.email pratikshahsamant@gmail.com
+Name - Pratiksha.Hemant.Samant 
 
-Project Link: [https://github.com/yourusername/weather-forecast-app](https://github.com/yourusername/weather-forecast-app)
+email - pratikshahsamant@gmail.com
+
+Project Link: https://github.com/PratikshaHS/WeatherForecasting/tree/main
