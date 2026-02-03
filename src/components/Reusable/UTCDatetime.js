@@ -1,10 +1,10 @@
 import { Typography } from '@mui/material';
 import React from 'react';
-import { getUTCDatetime } from '../../utilities/DatetimeUtils';
+import { getISTDatetime } from '../../utilities/DatetimeUtils';
 
 const UTCDatetime = () => {
-  const utcFullDate = getUTCDatetime();
-  const utcTimeValue = (
+  const istFullDate = getISTDatetime();
+  const istTimeValue = (
     <Typography
       variant="h3"
       component="h3"
@@ -17,10 +17,10 @@ const UTCDatetime = () => {
         fontFamily: 'Poppins',
       }}
     >
-      {utcFullDate} GMT
+      {istFullDate} IST
     </Typography>
   );
-  return utcTimeValue;
+  return istTimeValue;
 };
 
 export default UTCDatetime;

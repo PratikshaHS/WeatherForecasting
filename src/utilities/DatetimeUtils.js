@@ -56,3 +56,22 @@ export function getUTCTime() {
 
   return utcTime;
 }
+
+export function getISTDatetime() {
+  const istTime = date.toLocaleString('en-US', {
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23',
+    timeZone: 'Asia/Kolkata',
+  });
+
+  const istDateString = date.toLocaleString('en-US', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    timeZone: 'Asia/Kolkata',
+  });
+
+  const istDate = istDateString.replace(',', '').concat(' ', istTime);
+  return istDate;
+}

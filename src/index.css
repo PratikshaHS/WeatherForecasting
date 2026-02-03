@@ -16,3 +16,229 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Dark theme for react-select search bar */
+.css-13cymwt-control,
+.css-1j8m5s-control,
+.css-1hwfws3-control {
+  background-color: #2d2d2d !important;
+  border-color: #444 !important;
+  color: #ccc !important;
+}
+
+.css-13cymwt-control:hover,
+.css-1j8m5s-control:hover,
+.css-1hwfws3-control:hover {
+  border-color: #666 !important;
+}
+
+.css-13cymwt-control:focus,
+.css-13cymwt-control:focus-within,
+.css-1j8m5s-control:focus,
+.css-1j8m5s-control:focus-within,
+.css-1hwfws3-control:focus,
+.css-1hwfws3-control:focus-within {
+  background-color: #2d2d2d !important;
+  border-color: #666 !important;
+  color: #ccc !important;
+  box-shadow: 0 0 0 1px #666 !important;
+}
+
+/* Value container */
+.css-1hb7z8r-valueContainer,
+.css-14el5q5-valueContainer {
+  background-color: #2d2d2d !important;
+  color: #ccc !important;
+}
+
+/* Single value */
+.css-1dimb5e-singleValue,
+.css-1wa3eu0-singleValue {
+  color: #ccc !important;
+}
+
+.css-1fds7x9-input {
+  color: #ccc !important;
+}
+
+.css-1fds7x9-input:focus {
+  color: #ccc !important;
+  background-color: transparent !important;
+}
+
+.css-1fds7x9-input::placeholder {
+  color: #aaa !important;
+}
+
+.css-1u9des2-indicatorSeparator {
+  background-color: #555 !important;
+}
+
+.css-dpec1i-indicatorContainer,
+.css-15lsz6c-indicatorContainer {
+  color: #aaa !important;
+}
+
+/* Dropdown menu dark theme */
+.css-1n7v3ny-menu {
+  background-color: #2d2d2d !important;
+  border: 1px solid #444 !important;
+}
+
+/* Comprehensive option styling */
+.css-1n7v3ny-menu div,
+.css-1n7v3ny-menu [role="option"],
+.css-1u9des2-option,
+.css-15lsz6c-option,
+.css-yt9ioa-option,
+.css-1g6gooi-option,
+.css-1p3m3xa-option,
+.css-1hwfwb3-option {
+  background-color: #2d2d2d !important;
+  color: #ccc !important;
+  padding: 8px 12px !important;
+}
+
+.css-1n7v3ny-menu div:hover,
+.css-1n7v3ny-menu [role="option"]:hover,
+.css-1u9des2-option:hover,
+.css-15lsz6c-option:hover,
+.css-yt9ioa-option:hover,
+.css-1g6gooi-option:hover,
+.css-1p3m3xa-option:hover,
+.css-1hwfwb3-option:hover {
+  background-color: #444 !important;
+  color: #ccc !important;
+}
+
+.css-1n7v3ny-menu div:focus,
+.css-1n7v3ny-menu [role="option"]:focus,
+.css-1u9des2-option:focus,
+.css-15lsz6c-option:focus,
+.css-yt9ioa-option:focus,
+.css-1g6gooi-option:focus,
+.css-1p3m3xa-option:focus,
+.css-1hwfwb3-option:focus {
+  background-color: #555 !important;
+  color: #ccc !important;
+}
+
+/* Selected option */
+.css-1n7v3ny-menu div[aria-selected="true"],
+.css-1n7v3ny-menu [role="option"][aria-selected="true"],
+.css-1u9des2-option[aria-selected="true"],
+.css-15lsz6c-option[aria-selected="true"] {
+  background-color: #555 !important;
+  color: #ccc !important;
+}
+
+/* Group and group heading */
+.css-1q7cs0k-group,
+.css-1pahdxg-groupHeading {
+  background-color: #2d2d2d !important;
+  color: #ccc !important;
+}
+
+/* Menu list */
+.css-10h3vqk-menuList,
+.css-11unzgr-menuList {
+  background-color: #2d2d2d !important;
+}
+
+/* Menu portal */
+.css-1j3l37k-menuPortal {
+  background-color: #2d2d2d !important;
+}
+
+/* No options message */
+.css-1gtu0rj-noOptions {
+  background-color: #2d2d2d !important;
+  color: #ccc !important;
+}
+
+/* Loading message */
+.css-1h1yyft-loadingMessage {
+  background-color: #2d2d2d !important;
+  color: #ccc !important;
+}
+
+/* Force dark theme on all dropdown elements */
+.css-1n7v3ny-menu *,
+.css-1n7v3ny-menu *:hover,
+.css-1n7v3ny-menu *:focus {
+  background-color: #2d2d2d !important;
+  color: #ccc !important;
+}
+
+.css-1n7v3ny-menu *:hover {
+  background-color: #444 !important;
+}
+
+/* Override any inline styles */
+.css-1n7v3ny-menu [style] {
+  background-color: #2d2d2d !important;
+  color: #ccc !important;
+}
+
+/* Force dark theme on all search elements */
+[class*="css-"][class*="control"] *,
+[class*="css-"][class*="control"] {
+  background-color: #2d2d2d !important;
+  color: #ccc !important;
+}
+
+[class*="css-"][class*="indicator"] {
+  color: #aaa !important;
+}
+
+[class*="css-"][class*="placeholder"] {
+  color: #aaa !important;
+}
+
+/* Option styling */
+.css-1u9des2-indicatorSeparator {
+  background-color: #555 !important;
+}
+
+/* Main search bar (control) */
+[class*="css-"][class*="control"] {
+  background-color: #1f2937 !important; /* darker blue-grey */
+  border: 2px solid #6b7280 !important; /* visible border */
+  border-radius: 8px !important;
+  min-height: 48px !important;
+  box-shadow: none !important;
+}
+
+/* Hover state */
+[class*="css-"][class*="control"]:hover {
+  border-color: #9ca3af !important;
+}
+
+/* Focus state */
+[class*="css-"][class*="control"]:focus-within {
+  border-color: #38bdf8 !important; /* cyan glow */
+  box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.4) !important;
+}
+
+/* Input text */
+[class*="css-"][class*="input"] {
+  color: #ffffff !important;
+  font-size: 15px;
+}
+
+/* Placeholder text */
+[class*="css-"][class*="placeholder"] {
+  color: #d1d5db !important;
+  font-size: 14px;
+}
+
+/* Selected value */
+[class*="css-"][class*="singleValue"] {
+  color: #ffffff !important;
+}
+
+/* Dropdown arrow */
+[class*="css-"][class*="indicator"] {
+  color: #e5e7eb !important;
+}
+
